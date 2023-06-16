@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <h1 class="current-weather"></h1>
+        <h2 class="location"></h2>
+        <div class="region-country">
+          <p class="region"></p>
+          <p class="country"></p>
+        </div>
+        <div class="date-and-time">
+          <p class="day"></p>
+          <p class="date"></p>
+          <p class="localtime"></p>
+        </div>
+        <h1 class="temperature"></h1>
+        <p class="toggle-CF">Display Fahrenheit</p>
+        <div class="search-container">
+          <input id="searchInput" type="text" placeholder="Search Location" />
+          <img class="search-icon" src="./icons/search.png" alt="" />
+        </div>
+      </div>
+      <div class="right">
+        <p>Feels Like</p>
+        <h1 class="feels-like"></h1>
+        <p>Humidity</p>
+        <h1 class="humidity"></h1>
+        <p>Chance of Rain</p>
+        <h1 class="chance-of-rain"></h1>
+        <p>Chance of Snow</p>
+        <h1 class="chance-of-snow"></h1>
+        <p>Wind Speed</p>
+        <h1 class="wind-speed"></h1>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="daily-hourly-forecast">
+        <button class="btn-daily active">Daily</button>
+        <button class="btn-hourly">Hourly</button>
+        <div class="navigator hidden">
+          <h2 class="left-arrow">&#x3c</h2>
+          <h2 class="dot-left dot-active"></h2>
+          <h2 class="dot-middle"></h2>
+          <h2 class="dot-right"></h2>
+          <h2 class="right-arrow">&#x3e</h2>
+        </div>
+      </div>
+      <div class="daily-weekly-forecast-container"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

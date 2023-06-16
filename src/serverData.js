@@ -1,6 +1,7 @@
 import { renderResults, getWeatherData } from './renderWeatherData';
 
-const apiKey = '';
+// Get your API key from https://www.weatherapi.com/
+const apiKey = 'Your API key here';
 
 async function getServerData(location) {
   try {

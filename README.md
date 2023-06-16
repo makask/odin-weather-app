@@ -20,7 +20,7 @@ Features
   - You can make requests based on location
   - You can see what the current temperature feels like
   - You can see current humidity, chance of rain, chance of snow and wind speed
-  - You can switch between daily and hourly forecast
+  - You can switch between weekly and hourly forecast
   - There is a button that allows the temperature to be displayed in celsius or fahrenheit or wind speed in km/h or mph
  
  Page is not responsive.

@@ -23,4 +23,6 @@ Features
   - You can switch between daily and hourly forecast
   - There is a button that allows the temperature to be displayed in celsius or fahrenheit or wind speed in km/h or mph
  
+ Page is not responsive.
+ 
  ![image](https://github.com/makask/odin-weather-app/assets/16080688/8affa209-7566-43b2-8594-78f78cc3b311)
